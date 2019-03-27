@@ -1,0 +1,184 @@
+*{
+	margin: 0px;
+	padding:0px; 
+	font-family: 'Montserrat', sans-serif;
+}
+.header
+{
+	
+	background: url(header-background.png);
+	background-size: cover;
+	height: 50vh;
+	display: flex;
+	position: relative;
+	align-items: flex-end;
+	justify-content: center;
+
+}
+.roundImage
+{
+	position:relative;
+	z-index: 10;
+	height: 30vh;
+}
+.main
+{
+
+background-color: pink;
+
+}
+.psevdomain
+{
+
+	background: white;
+	margin-left: 3.2%;
+	margin-right: 3.2%;
+	position:absolute;
+	top: 250px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.psevdomain .about 
+{	padding-top: 6.8%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	
+} 
+.about h1
+{
+	
+	margin-bottom: 1.4%;
+	font-size: 24.86pt;
+	
+}
+.border
+{
+	background: blue;
+
+	
+}
+ .about p
+{
+	padding-top: 1.4%;
+	color: white;
+
+}
+.psevdomain .about p {
+	padding: 0.5%;
+
+}
+.column
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+}
+.paddingForColumn
+{
+	margin-left: 5%;
+	margin-bottom: 7%;
+
+}
+.leftColumn
+{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+.aboutMe
+{
+width: 65%;
+}
+.mySkills
+{
+	text-transform: uppercase;
+}
+
+.value 
+{
+	width: 10%;
+	height: 10px;
+	background: #ddd;
+}
+.rightColumn
+{	
+	display: flex;
+	flex-direction: column;
+	width: 55%;
+	margin-left: 1%;
+}
+.upperCase
+{
+	text-transform: uppercase;
+}
+.bold
+{
+	font-weight: bold;
+}
+.italic
+{
+	font-style: italic;
+}
+ul 
+{
+	list-style: none;
+	
+}
+li
+{
+	padding: 0px 0px 20px 60px;
+	line-height: 30px;
+	position: relative;
+}
+li:before
+{
+	content: '';
+	display: block;
+	background: blue;
+	width: 15px;
+	height: 15px;
+	border-radius: 50px;
+	position: absolute;
+	left: 15px;
+	top:0px;
+	z-index: 1;
+	transition: background .3s;
+}
+
+li:after
+{
+	content: '';
+	display: block;
+	background: grey;
+	width: 1px;
+	height: 90%;
+	position: absolute;
+	left: 21px;
+	bottom: 0;
+	z-index: 0;
+}
+li:last-child:after
+{
+	bottom: 20%;
+}
+
+.simple-text
+{
+	/* Обычные р */
+	font-size: 9.68pt
+}
+.simpleH3
+{
+	font-size: 13pt;
+	text-transform: uppercase;
+	margin-bottom: 3.5%;
+	margin-top: 1.5%;
+}
+.bluePLeftcolumn
+{
+	color:blue;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
