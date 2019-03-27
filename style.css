@@ -30,7 +30,7 @@ background-color: pink;
 .psevdomain
 {
 
-	background: white;
+	background: #FFFAFA;
 	margin-left: 3.2%;
 	margin-right: 3.2%;
 	position:absolute;
@@ -42,13 +42,12 @@ background-color: pink;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	
 } 
 .about h1
 {
-	
+	margin-top: 2.5%;
 	margin-bottom: 1.4%;
 	font-size: 24.86pt;
 	
@@ -85,28 +84,56 @@ background-color: pink;
 {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 38%;
 }
 .aboutMe
 {
 width: 65%;
 }
+
+
 .mySkills
 {
 	text-transform: uppercase;
+	padding-bottom: 2%;
+}
+.mySkills p
+{
+	margin-bottom: 5%;
+
+}
+progress
+{
+	margin-left:4%;
+	height: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	
+	
+}
+progress::-webkit-progress-bar
+{
+	
+	background-color: #FFFAFA;
+
+}
+progress::-webkit-progress-value
+{
+	background:blue;
+
 }
 
-.value 
+progress[value]
 {
-	width: 10%;
-	height: 10px;
-	background: #ddd;
+	-webkit-appearance:none;
+	appearance:none;
+	width: 70%;
 }
+
 .rightColumn
 {	
 	display: flex;
 	flex-direction: column;
-	width: 55%;
+	width: 60%;
 	margin-left: 1%;
 }
 .upperCase
@@ -168,6 +195,7 @@ li:last-child:after
 {
 	/* Обычные р */
 	font-size: 9.68pt
+	padding-top:2%;
 }
 .simpleH3
 {
